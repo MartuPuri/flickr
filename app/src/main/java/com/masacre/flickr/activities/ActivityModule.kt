@@ -7,4 +7,7 @@ import dagger.android.ContributesAndroidInjector
 abstract class ActivityModule {
     @ContributesAndroidInjector
     abstract fun contributePhotoListActivity(): PhotoListActivity?
+
+    @ContributesAndroidInjector
+    abstract fun contributeFullScreenImageActivity(): FullScreenImageActivity?
 }
