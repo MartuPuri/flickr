@@ -2,7 +2,6 @@ package com.masacre.flickr.model
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties
 import com.fasterxml.jackson.annotation.JsonProperty
-import com.fasterxml.jackson.databind.annotation.JsonNaming
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 data class Photo(
