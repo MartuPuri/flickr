@@ -1,5 +1,6 @@
 package com.masacre.flickr.networking
 
+import android.content.Context
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton
@@ -8,7 +9,7 @@ import javax.inject.Singleton
 class NetworkingModule {
     @Provides
     @Singleton
-    fun reftrofitService() = RetrofitService()
+    fun reftrofitService(context: Context) = RetrofitService(context)
 
     @Provides
     @Singleton
