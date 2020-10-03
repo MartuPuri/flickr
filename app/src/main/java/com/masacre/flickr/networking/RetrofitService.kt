@@ -34,7 +34,7 @@ class RetrofitService {
                 val url = originalHttpUrl.newBuilder()
                     .addQueryParameter("api_key", "675894853ae8ec6c242fa4c077bcf4a0")
                     .addQueryParameter("format", "json")
-                    .addQueryParameter("nojsoncallback", "1")
+                    .addQueryParameter("nojsoncallback", "1 ")
                     .build()
 
                 // Request customization: add request headers

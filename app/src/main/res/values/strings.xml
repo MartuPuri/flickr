@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Flickr</string>
     <string name="no_results_in_this_area">There is no results</string>
+    <string name="app_label">Flickr</string>
+    <string name="search_hint">Search for any photo</string>
+    <string name="search_title">Search</string>
 </resources>
