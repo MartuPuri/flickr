@@ -57,6 +57,8 @@ class PhotoListActivity : DaggerAppCompatActivity() {
             object : SearchView.OnQueryTextListener {
                 override fun onQueryTextSubmit(query: String?): Boolean {
                     photosListViewModel.search(query)
+                    loading.visibility = View.VISIBLE
+                    noResults.visibility = View.GONE
                     return true
                 }
 
